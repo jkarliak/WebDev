@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title> Vacation Spot </tilte>
+	<meta charset="utf-8">
+	<link rel="Iceland Flag" href="icelandflag.ico">
+
+	
+
+
+
+
+
+
+</html>
