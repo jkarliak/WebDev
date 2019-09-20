@@ -1,0 +1,82 @@
+body {
+	background-color: #1e4759;
+}
+
+.divcolor {
+	background-color: #5e8da9;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+/*------------------------------------------------------------*/
+/*styles for header */
+
+header img {
+	display: block;
+	float: right;
+	width: 100%;
+	height: auto;
+	opacity: 0.9;
+	padding-bottom: 2em;
+}
+header h1 {
+	font-size: 100px;
+	font-family: 'Big Shoulders Display', cursive;
+	letter-spacing: 6px;
+	line-height: 200px;
+}
+.center {
+	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -165%);
+}
+/*------------------------------------------------------------*/
+/* styles for main */
+
+main h2 { 
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+main blockquote {
+	text-align: center;
+	font-size: 20px;
+	padding: 25px 50px;
+	margin-right: 19em;
+	margin-left: 19em;
+}
+main p {
+	text-align: center;
+}
+main a:link {
+	color: blue;
+}
+main a:visited {
+	color: orange;
+}
+main a:hover {
+	color: purple;
+}
+main a:active {
+	color: red;
+}
+/*------------------------------------------------------------*/
+/* styles for footer */
+
+#copyright {
+	text-align: center;
+	font-size: 12px;
+}
+footer a:link {
+	color: blue;
+}
+footer a:visited {
+	color: orange;
+}
+footer a:hover {
+	color: purple;
+}
+footer a:active {
+	color: red;
+}
+/*------------------------------------------------------------*/
+
