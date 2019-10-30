@@ -1,0 +1,63 @@
+<!DOCTYPE HTML> 
+
+<html lang="en">
+
+<head>
+	<title> Alaska Parks </title>
+	<meta charset= "utf-8">
+	<meta name="keyword" content="Denali National Park and Preserve, Glacier Bay National Park and Preserve,Gates of the Arctic National Park and Preserve">
+	<meta name="description" content="Alaska national parks"> 
+	<link rel="stylesheet" href="styles/photogallery.css">
+	<link rel="shortcut icon" href="images/Flag_of_Alaska.ico">
+</head>
+	
+<body>
+	<header>
+		<img src="images/wonder-lake-denali.jpg" alt="mountain and lake of denali park">
+		<h1 class="center"> PHOTO GALLERY </h1>
+	</header>
+		<nav id="nav_menu">
+			<ul>
+				<li> <a href="index.html"> Home </a> </li>
+				<li> <a href="historicalsites.html"> Historical Sites </a> </li>
+				<li> <a href="nationalpreserves.html"> National Preserves </a> </li>
+				<li> <a href="photogallery.html" class="current"> Photo Gallery </a> </li>
+			</ul>
+		</nav>
+	<main> 
+		<intro>
+			<p> Welcome to the Alaska National Parks Photo Gallery. All of the images below have been submitted by visitors to our parks. After your visit to our parks, send us your favorite photos so we can add them to our gallery. </p>
+		</intro>	
+
+		<section class="slidecenter">
+			<img class="myslide" src="images/slide1.jpg">
+			<img class="myslide" src="images/slide2.jpg">
+			<img class="myslide" src="images/slide3.jpg">
+			<img class="myslide" src="images/slide4.jpg">
+			<img class="myslide" src="images/slide5.jpg">
+		</section>
+	</main>
+	
+	<footer>
+		<p> &copy Just Joshin Co. &copy </p>
+	</footer>
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+  			var i;
+  			var x = document.getElementsByClassName("myslide");
+  			for (i = 0; i < x.length; i++) {
+   				x[i].style.display = "none";  
+  		}
+  		myIndex++;
+  		if (myIndex > x.length) {myIndex = 1}    
+  		x[myIndex-1].style.display = "block";  
+  		setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+	</script>
+</body>
+
+</html>
