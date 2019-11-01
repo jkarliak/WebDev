@@ -242,3 +242,6 @@ footer p {
 	display: none; /*hides it*/
 } 
 
+#mobile_menu {
+	display: block;
+}
