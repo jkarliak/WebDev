@@ -1,0 +1,11 @@
+section {
+    display: grid;
+    grid-template: repeat(2, 200px) / repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 3px;
+    align-content: center;
+}
+
+section img {
+    width: 500px;
+    height: 200px;
+}
