@@ -1,0 +1,94 @@
+/*styles for elements/--------------------------------------------------------------------------*/
+html { 
+	background-color: #13335b;
+}
+
+body {
+	width: 1100px;
+	margin: auto;
+	padding: .5em .5em 0 .5em;
+	border: 3px solid #3e526a;
+	background-color: #3f6490;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -990%);
+}
+
+/*styles for nav/-------------------------------------------------------------------------------*/
+#nav_menu ul {
+	list-style-type: none;
+	padding: 1em 0;
+	text-align: center;
+	border-top: 2px solid #3e526a;
+	border-bottom: 2px solid #3e526a;
+}
+
+#nav_menu ul li {
+	display: inline;
+	padding: 0 1.5em;
+}
+#nav_menu ul li a {
+	font-weight: bold;
+}
+#nav_menu ul li a.current {
+	text-decoration: none;
+}
+#nav_menu ul li a:link {
+	color: #c59445;
+}
+#nav_menu ul li a:visited {
+	color: #c59445;
+}
+
+/*styles for header/----------------------------------------------------------------------------*/
+header img {
+	width: 98%;
+	height: 300px;
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #3e526a;
+}
+
+/*styles for main/------------------------------------------------------------------------------*/
+main {
+	padding: 0;
+	margin: 0;
+}
+
+main h3 {
+	text-align: center;
+}
+
+/*styles for section/---------------------------------------------------------------------------*/
+section {
+	padding-top: .5em;
+}
+
+section p {
+	text-indent: 1.5em;
+}
+
+section h2 {
+	text-align: center;
+}
+
+section img {
+	display: inline;
+	margin: 0 .5em;
+	padding: 0 2em;
+	width: 270px;
+	height: 220px;
+}
+/*styles for aside/-----------------------------------------------------------------------------*/
+
+/*styles for footer/----------------------------------------------------------------------------*/
+footer p {
+	position: block;
+	padding-top: 1em;
+	text-align: center;
+	border-top: 3px solid #3e526a;
+}
